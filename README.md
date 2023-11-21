@@ -1,1 +1,1 @@
-# **Ficto - Generate Fictitious Data**
+# **Ficto - Generate Demo Data**
