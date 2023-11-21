@@ -1,0 +1,154 @@
+columns:
+  - name: ID
+    type: customseq
+    datatype: int
+    start: 1
+    step: 1
+    pos: 1
+  - name: First Name
+    type: firstname
+    datatype: string
+    pos: 2
+  - name: Last Name
+    type: lastname
+    datatype: string
+    pos: 3
+  - name: Gender
+    type: gender
+    datatype: string
+    pos: 4
+  - name: Country
+    type: country
+    datatype: string
+    countries: ['US', 'UK']
+    pos: 5
+  - name: Phone No.
+    type: phonenumber
+    datatype: string
+    pos: 6
+  - name: Currency
+    type: currency
+    datatype: string
+    currency: ['USD', 'GBP', 'AUD', 'CAD']
+    pos: 7
+  - name: DOB
+    type: customdate
+    datatype: datetime
+    start: '01/01/1980'
+    end: '31/12/2006'
+    pos: 8
+  - name: Salary
+    type: customint
+    datatype: int
+    start: 10000
+    end: 20000
+    round: 1000
+    pos: 9
+  - name: Body Temp.
+    type: customfloat
+    datatype: float
+    start: 97.5
+    end: 101.5
+    round: 1
+    pos: 10
+  - name: Blood Group
+    type: customlist
+    datatype: string
+    values: ['A+', 'B+', 'AB+', 'O+', 'A-', 'B-', 'AB-', 'O-']
+    pos: 11
+  - name: Employee ID
+    type: customuuid
+    datatype: string
+    characterlimit: 6
+    numeric: True  # Set this to True or False as needed
+    pos: 12
+  - name: Feedback
+    type: customlorem
+    datatype: string
+    characterlimit: 20  # Set the character limit as needed
+    pos: 13
+  - name: Email
+    type: email
+    datatype: string
+    # emailprovider: ['gmail.com','yahoo.com','hotmail.com','live.com','outlook.com']
+    pos: 14
+  - name: URL
+    type: website
+    datatype: string
+    domain: ['.com','.net','.org','.edu']
+    pos: 15
+  - name: Company
+    type: organization
+    datatype: string
+    pos: 16
+  - name: Dept
+    type: department
+    datatype: string
+    # customdept: ['Marketing', 'Engineering', 'HR']
+    pos: 17
+  - name: Designation
+    type: designation
+    datatype: string
+    # customdes: ["Executive","Manager","Director"]
+    pos: 18
+  - name: Passport
+    type: passport
+    datatype: string
+    pos: 19
+  - name: SSN
+    type: ssn
+    datatype: string
+    pos: 20
+  - name: Credit Card
+    type: ccn
+    datatype: string
+    pos: 21
+  - name: Password
+    type: password
+    datatype: string
+    pos: 22
+  - name: Address
+    type: address
+    datatype: string
+    pos: 23
+  - name: Latitude
+    type: lat
+    datatype: string
+    pos: 24
+  - name: Longitude
+    type: long
+    datatype: string
+    pos: 25
+  - name: Industry
+    type: industry
+    datatype: string
+    # customindustry: ['Fashion and Retail', 'Telecom', 'Technology', 'Automotive', 'Media and Entertainment']
+    pos: 26
+  - name: Time of Arrival
+    type: customtime
+    datatype: datetime
+    start: "08:00:00"
+    end: "23:00:00"
+    clock_type: 24
+    pos: 27
+  - name: Year
+    type: customyear
+    datatype: int
+    start: 1900
+    end: 2023
+    pos: 28
+  - name: Month
+    type: custommonth
+    datatype: string
+    start: 1
+    end: 12
+    pos: 29
+  - name: Product
+    type: prodname
+    datatype: string
+    pos: 30
+  - name: Category
+    type: prodcat
+    datatype: string
+    # customcats: ["Electronics", "Clothing", "Home and Kitchen", "Books", "Toys"]
+    pos: 31
