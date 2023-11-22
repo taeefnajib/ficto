@@ -1,6 +1,6 @@
 import pytest
 import pandas
-from ficto.core.generate import create_dataframe
+from ficto.core.generate import *
 
 
 good_parameters = [
