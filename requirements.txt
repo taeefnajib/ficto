@@ -5,3 +5,4 @@ pytz
 PyYAML
 six
 tzdata
+-e .
