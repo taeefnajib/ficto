@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import string
 from itertools import count
 
-from helper.data_module import *
+from ficto.helper.data_module import *
 
 
 # Function to generate a random first name
