@@ -2,7 +2,7 @@ import argparse
 from datetime import datetime
 import os
 
-from ficto.core.generate import create_dataframe
+from core.generate import create_dataframe
 
 
 

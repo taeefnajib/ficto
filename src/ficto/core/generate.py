@@ -2,8 +2,8 @@ import pandas as pd
 import random
 import yaml
 
-from ficto.helper.data_module import *
-from ficto.helper.builder import *
+from helper.data_module import *
+from helper.builder import *
 
 
 # Function to create dataframe from YAML configuration
