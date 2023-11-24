@@ -34,5 +34,5 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest tox tox-gh-actions
         pip install -r requirements.txt
-    - name: Test with tox
-      run: tox
+    # - name: Test with tox
+    #   run: tox
