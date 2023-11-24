@@ -1,3 +1,4 @@
+# Mapping of countries to their corresponding country codes
 country_to_code = {
     "US": "US",
     "UK": "UK",
@@ -33,7 +34,7 @@ country_to_code = {
     "Greece": "GR"
     # Add more mappings as needed
 }
-
+# Mapping of countries to their corresponding currency codes
 country_to_currency = {
     "US": "USD",
     "UK": "GBP",
@@ -69,7 +70,7 @@ country_to_currency = {
     "Greece": "EUR"
     # Add more country-to-currency mappings as needed
 }
-
+# Passport formats for various countries
 passport_formats = {
     "US": "AA######",
     "UK": "######",
@@ -105,7 +106,7 @@ passport_formats = {
     "Greece": "#########"
     # Add more formats for other countries as needed
 }
-
+# Social Security Number (SSN) formats for various countries
 ssn_formats = {
     "US": "###-##-####",
     "UK": "##-##-##",
@@ -141,7 +142,7 @@ ssn_formats = {
     "Greece": "###-##-####"
     # Add more formats for other countries as needed
 }
-
+# Phone number formats for various countries
 phone_formats = {
     "US": "+1-XXX-XXX-XXXX",
     "UK": "+44-7XXX-XXX-XXX",
@@ -177,7 +178,7 @@ phone_formats = {
     "Greece": "+30-6XX-XXX-XXXX"
     # Add more formats for other countries as needed
 }
-
+# Mapping of departments to lists of job designations within each department
 designation_mapping = {
     "Marketing": [
         "Jr. Executive",
@@ -377,7 +378,7 @@ designation_mapping = {
     ],
 }
 
-
+# Mapping of countries to states and cities within each state
 country_to_states_and_cities = {
     "US": {
         "Alabama": [
@@ -656,7 +657,7 @@ country_to_states_and_cities = {
         ],
     },
 }
-
+# Mapping of product categories to lists of product names within each category
 product_names_dict = {
     "Electronics": [
         "Smartphone",
@@ -1099,8 +1100,7 @@ product_names_dict = {
         "Art Apron",
     ],
 }
-
-
+# List of common male first names
 male_names = [
     "John",
     "Robert",
@@ -1203,7 +1203,7 @@ male_names = [
     "Antonio",
     "Danny",
 ]
-
+# List of common female first names
 female_names = [
     "Mary",
     "Patricia",
@@ -1301,6 +1301,7 @@ female_names = [
     "Kristen",
     "Pauline",
 ]
+# List of common last names
 last_names = [
     "Smith",
     "Johnson",
@@ -1405,7 +1406,7 @@ last_names = [
     "Sullivan",
     "Wallace",
 ]
-
+# Dictionary mapping country codes to latitude ranges
 country_latitudes = {
     "US": (24.396308, 49.384358),  # Contiguous United States
     "UK": (49.91224, 58.635),  # United Kingdom
@@ -1441,8 +1442,7 @@ country_latitudes = {
     "Greece": (35.81, 41.748)
     # Add more countries and latitude ranges as needed
 }
-
-
+# Dictionary mapping country codes to longitude ranges
 country_longitudes = {
     "US": (-125.000000, -66.934570),  # Contiguous United States
     "UK": (-8.646362, 1.763306),  # United Kingdom
@@ -1478,8 +1478,7 @@ country_longitudes = {
     "Greece": (20.869, 29.65)
     # Add more countries and longitude ranges as needed
 }
-
-
+# List of company name prefixes
 company_prefix = [
     "secure",
     "premium",
@@ -1567,6 +1566,7 @@ company_prefix = [
     "vivid",
     "integral",
 ]
+# List of company name suffixes
 company_suffix = [
     "tech",
     "metal",
@@ -1593,7 +1593,7 @@ company_suffix = [
     "group",
     "mechanics",
 ]
-
+# List of words for generating email addresses (email_1)
 email_1 = [
     "beautiful",
     "opera",
@@ -1607,6 +1607,7 @@ email_1 = [
     "mew",
     "love",
 ]
+# List of words for generating email addresses (email_2)
 email_2 = [
     "xoxo",
     "story",
@@ -1620,8 +1621,9 @@ email_2 = [
     "silk",
     "heaven",
 ]
+# List of words for generating email addresses (email_3)
 email_3 = ["a2z", "1010", "1996", "mozzarella", "x", "80s", "work", "uni"]
-
+# List of default department names
 default_departments = [
     "Marketing",
     "Sales",
@@ -1646,7 +1648,7 @@ default_departments = [
     "Data Science",
 ]
 
-
+# List of common words for generating passwords (password_words_1)
 password_words_1 = [
     "apple",
     "david",
@@ -1660,6 +1662,7 @@ password_words_1 = [
     "diamond",
     "eagle",
 ]
+# List of common words and characters for generating passwords (password_words_2)
 password_words_2 = [
     "123",
     "456",
@@ -1674,7 +1677,7 @@ password_words_2 = [
     "000000",
     "sunshine",
 ]
-
+# List of default industry categories
 default_industry = [
     "Fashion and Retail",
     "Telecom",
@@ -1721,7 +1724,7 @@ default_industry = [
     "Blockchain",
     "Quantum Computing",
 ]
-
+# List of default product categories
 default_product_categories = [
     "Electronics",
     "Clothing",
