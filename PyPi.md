@@ -5,16 +5,10 @@ Ficto is a Python package that allows you to effortlessly generate realistic dem
 ## Installation & Quick Start
 
 To install Ficto, use the following `pip` command:
-
-```bash
-pip install ficto
-```
+`pip install ficto`
 
 Generate a dataset by providing a YAML configuration file, the number of rows, and the desired file format. For example, to generate a CSV file with 100 rows using a configuration file named config.yaml, run the following command:
-
-```bash
-ficto -d config.yaml -n 100 -f csv
-```
+`ficto -d config.yaml -n 100 -f csv`
 
 ## Features
 * **Flexible Configuration:** Customize your dataset by defining columns and their types in a YAML file.
@@ -30,9 +24,8 @@ You can find a template [here](https://github.com/taeefnajib/ficto/blob/main/con
 
 2. **Generate Data:** Use the Ficto CLI to generate data based on your configuration.
 
-```bash
-ficto -d config.yaml -n 100 -f csv
-```
+`ficto -d config.yaml -n 100 -f csv`
+
 This command generates a CSV file inside a newly created `data` folder with 100 rows of demo data based on your data configuration file (i.e.`config.yaml`).
 
 ## Documentation
