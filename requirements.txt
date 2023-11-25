@@ -5,4 +5,5 @@ pytz
 PyYAML
 six
 tzdata
+sphinx-rtd-theme
 -e .
