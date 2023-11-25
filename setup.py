@@ -1,6 +1,6 @@
 import setuptools
 
-with open("PyPi.txt", "r", encoding="utf-8") as f:
+with open("../PyPi.txt", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 __version__ = "0.0.4"
