@@ -6,5 +6,5 @@ PyYAML
 six
 tzdata
 sphinx
-sphinx-rtd-theme
+sphinx_rtd_theme
 -e .
