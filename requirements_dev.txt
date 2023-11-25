@@ -5,6 +5,8 @@ pytz
 PyYAML
 six
 tzdata
+sphinx
+sphinx-rtd-theme
 
 # dev requirements -
 pytest
