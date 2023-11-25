@@ -4,5 +4,7 @@ version: 2
 
 sphinx:
   configuration: docs/source/conf.py
-  configuration:
-    version: main
+  builder: html
+  fail_on_warning: true
+  nitpicky: true
+  fail_on_build_failure: true
