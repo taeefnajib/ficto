@@ -8,4 +8,4 @@ build:
     python: "3.8"
 
 sphinx:
-  configuration: conf.py
+  configuration: docs/conf.py
