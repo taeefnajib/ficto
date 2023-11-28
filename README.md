@@ -1,6 +1,6 @@
 # Ficto - Generate Realistic Demo Data
 
-Ficto is a Python package that allows you to effortlessly generate realistic demo data in CSV or JSON format. With Ficto, you can create datasets with various column types by simply specifying them in a YAML configuration file.
+Ficto is a Python package that allows you to effortlessly generate realistic dummy data in CSV or JSON format. With Ficto, you can create datasets with various column types by simply specifying them in a YAML configuration file.
 
 ## Installation & Quick Start
 
