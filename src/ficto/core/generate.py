@@ -241,13 +241,21 @@ def create_dataframe(dataconfig, numrows):
                 step = column.get("step", 1)
                 data[col_name] = generate_custom_sequence(start, step, numrows)
 
+        # Function to check if a column is already numeric
+        def is_numeric(series):
+            return pd.api.types.is_numeric_dtype(series)
+
         # Convert column to specified datatype
+        # Skip conversion if the column is already in the desired datatype
         if col_datatype == "int":
-            data[col_name] = pd.to_numeric(data[col_name], errors="coerce")
+            if not is_numeric(data[col_name]):
+                data[col_name] = pd.to_numeric(data[col_name], errors="coerce").astype(int)
         elif col_datatype == "float":
-            data[col_name] = pd.to_numeric(data[col_name], errors="coerce").astype(
-                float
-            )
+            if not is_numeric(data[col_name]):
+                data[col_name] = pd.to_numeric(data[col_name], errors="coerce").astype(float)
+        elif col_datatype == "string":
+            if not pd.api.types.is_string_dtype(data[col_name]):
+                data[col_name] = data[col_name].astype(str)
     
     df = pd.DataFrame(data)
     # Sort the columns based on the 'pos' parameter, if present
